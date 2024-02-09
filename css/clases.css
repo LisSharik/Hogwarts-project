@@ -1,0 +1,59 @@
+@import url(normalize.css);
+
+
+table {
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: collapse;
+    border: 2px solid var(--ColorLetra);
+    overflow: hidden;
+  }
+  
+  thead tr{
+    background-color: rgba(0, 0, 0, 0.541);
+  }
+
+thead tr th{
+    padding: 10px;
+    font-size: 32px;
+    border: 2px solid var(--ColorLetra);
+    background-color: rgba(0, 0, 0, 0.796);
+}
+tbody td{
+    font-size: 24px;
+    letter-spacing: 3px;
+    border: 2px solid var(--ColorLetra);
+    padding: 10px;
+    padding-left: 30px;
+    background-color: rgba(0, 0, 0, 0.685);
+    
+    
+}
+
+tbody tr:nth-child(even){
+    background-color: rgba(246, 246, 246, 0.109);
+}
+
+.clases_content{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.clases_content .clase_card{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.botones_content{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}

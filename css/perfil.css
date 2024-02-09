@@ -1,0 +1,31 @@
+.perfil_content{
+    width: 90%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.657);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.perfil_content .img_content{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.perfil_content .img_content .imagen_avatar{
+    width: 600px;
+    
+}
+
+.perfil_content .info_content{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
